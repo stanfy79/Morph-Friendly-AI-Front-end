@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+	<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		<title>Morph AI Copilot</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<main>
+			<section class="chatbot-container">
+				<div class="chatbot-header">
+					<img src="assets/TxnCLnvh-xIevxxfQ.jpeg" class="logo">
+					<div id="button-3" class="button r">
+						<input class="checkbox" type="checkbox">
+						<div class="knobs"></div>
+						<div class="layer"></div>
+					  </div>
+					<div class="connect-btn-area">
+						<div class="connect-btn">Connect <img src="/assets/wallet-minus.svg"></div>
+					</div>
+				</div>
+				<div class="chatbot-conversation-container" loading="lazy" id="chatbot-conversation">
+					<div class="menu-container">
+						<div class="morph-wallet-bal" >Balance: <span>0.00 <strong>ETH</strong></span></div>
+						<div class="news-feed-url"><a href="/news-post">News on Morph Blockchain</a></div>
+					<div class="command-content-list-container">
+						<div class="chatbot-quest-list" data-command="">Open Wallet</div>
+						<div class="chatbot-quest-list" data-command="">Transaction History</div>
+						<div class="chatbot-quest-list" data-command="">How to deploy smart contrats on Morph?</div>
+						<div class="chatbot-quest-list" data-command="">What can I contribute to the Morp community?</div>
+					</div>
+				</div>
+					<div class="general-speech-container">
+						<img src="/assets/Twitter_Verified_Badge.svg.png" alt="Chatbot">
+						<div class="speech speech-ai">
+							Hey! I am Morph AI Copilot.
+						</div>
+					</div>
+					<div class="general-speech-container">
+						<img src="/assets/Twitter_Verified_Badge.svg.png" alt="Chatbot">
+						<div class="speech speech-ai">
+							You can ask me anything about Morph blockchain or interact with your wallet.
+						</div>
+					</div>
+				</div>
+				<form id="form" class="chatbot-input-container">
+					<div class="input-submit-btn">
+						<input name="user-input" type="text" id="user-input" required>
+						<button id="submit-btn" class="submit-btn">
+							<img src="/assets/send-icon.svg" class="send-btn-icon">
+					</button>
+					</div>
+					<div class="chatbot-class-menu-btn">
+						<img src="data:image/svg+xml,%3csvg%20class='svg-icon'%20style='width:%2030px;%20height:%2030px;vertical-align:%20middle;%20overflow:%20hidden;'%20viewBox='0%200%201024%201024'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M389.2%2098.93H189.43c-49.51%200-89.8%2040.28-89.8%2089.8V388.5c0%2049.51%2040.28%2089.8%2089.8%2089.8H389.2c49.51%200%2089.8-40.28%2089.8-89.8V188.72c0-49.51-40.28-89.79-89.8-89.79z%20m29.93%20289.56c0%2016.5-13.43%2029.93-29.93%2029.93H189.43c-16.5%200-29.93-13.43-29.93-29.93V188.72c0-16.5%2013.43-29.93%2029.93-29.93H389.2c16.5%200%2029.93%2013.43%2029.93%2029.93v199.77zM389.2%20547.34H189.43c-49.51%200-89.8%2040.28-89.8%2089.8v199.77c0%2049.51%2040.28%2089.8%2089.8%2089.8H389.2c49.51%200%2089.8-40.28%2089.8-89.8V637.14c0-49.51-40.28-89.8-89.8-89.8z%20m29.93%20289.57c0%2016.5-13.43%2029.93-29.93%2029.93H189.43c-16.5%200-29.93-13.43-29.93-29.93V637.14c0-16.5%2013.43-29.93%2029.93-29.93H389.2c16.5%200%2029.93%2013.43%2029.93%2029.93v199.77zM837.56%2098.93H637.79c-49.51%200-89.8%2040.28-89.8%2089.8V388.5c0%2049.51%2040.28%2089.8%2089.8%2089.8h199.77c49.51%200%2089.8-40.28%2089.8-89.8V188.72c0-49.51-40.28-89.79-89.8-89.79z%20m29.93%20289.56c0%2016.5-13.43%2029.93-29.93%2029.93H637.79c-16.5%200-29.93-13.43-29.93-29.93V188.72c0-16.5%2013.43-29.93%2029.93-29.93h199.77c16.5%200%2029.93%2013.43%2029.93%2029.93v199.77zM837.56%20547.34H637.79c-49.51%200-89.8%2040.28-89.8%2089.8v199.77c0%2049.51%2040.28%2089.8%2089.8%2089.8h199.77c49.51%200%2089.8-40.28%2089.8-89.8V637.14c0-49.51-40.28-89.8-89.8-89.8z%20m29.93%20289.57c0%2016.5-13.43%2029.93-29.93%2029.93H637.79c-16.5%200-29.93-13.43-29.93-29.93V637.14c0-16.5%2013.43-29.93%2029.93-29.93h199.77c16.5%200%2029.93%2013.43%2029.93%2029.93v199.77z'%20fill='%230BBBBB'%20/%3e%3c/svg%3e" class="chatbot-class-menu-img">
+					</div>
+					<div><a href="https://www.morphl2.io/" target="_blank" >Learn more about Morph</a></div>
+				</form>
+			</section>
+			<div class="news-feed-container">
+				<div class="new-feed-header">
+					<span>Latest News</span>
+				</div>
+				<div class="news-feed-sections">
+					<div>News 1</div>
+					<div>News 2</div>
+					<div>News 3</div>
+				</div>
+			</div>
+		</main>
+		<script src="app.js" type="module" ></script>
+	</body>
+
+</html>
