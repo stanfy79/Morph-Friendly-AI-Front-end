@@ -495,7 +495,7 @@ input:focus ~ .submit-btn, input[type="text"]:focus {
 .news-feed-container {
     height: 75dvh;
     width: 100vw;
-    display: none;
+    display: block;
     max-width: 800px;
     color: var(--dark-text);
     background: transparent;
@@ -506,10 +506,22 @@ input:focus ~ .submit-btn, input[type="text"]:focus {
     .new-feed-header {
         width: 100%;
         color: #04c47e;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-bottom: 1px solid rgba(128, 128, 128, 0.574);
         padding: 15px;
-    }
+            h2 {
+                
+            }
+            span {
+                justify-self: start;
+                display: flex;
+                img {
+                    margin: 0 10px;
+                }
+            }
+        }
     .news-feed-sections {
         padding: 10px;
         display: flex;
