@@ -162,6 +162,13 @@ main {
         border-radius: 50%;
         width: 50px;
     }
+    #beta-sign {
+        margin: 10px;
+        background: #39e6afb4;
+        width: fit-content;
+        border-radius: 50%;
+        padding: 10px;
+    }
     .connect-btn-area {
         display: flex;
         justify-self: end;
@@ -192,7 +199,7 @@ main {
                 margin: 0;
             }
             &:hover {
-                border-color: #6ef7dc;
+                border-color: #39e6afb4;
                 background: #6ef5f760;
             }
         }
@@ -519,6 +526,14 @@ input:focus ~ .submit-btn, input[type="text"]:focus {
                 position: absolute;
                 img {
                     margin: 0 10px;
+                }
+            }
+            .close-btn:hover {
+                color: #589f88;
+                font-weight: bolder;
+                img {
+                    fill: #000000;
+                    stroke: #000000;
                 }
             }
         }

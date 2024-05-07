@@ -100,6 +100,21 @@ function renderTypewriterText(text) {
     //     alert(this.parentNode.textContent.document.execCommand("copy"))
     // })
 
+    // Display news feed & hide 
+
+    function newsFeed() {
+        const newsBtn = document.querySelector(".news-feed-url")
+        const newsFeedDisplay = document.querySelector(".news-feed-container")
+        const newsCloseBtn = document.querySelector(".close-btn")
+
+        newsBtn.addEventListener('click', () => {
+            newsFeedDisplay.style.display = "block"
+        })
+        newsCloseBtn.addEventListener('click', () => {
+            newsFeedDisplay.style.display = "none"
+        })
+    }
+    newsFeed()
 
 
 // change theme background, toggle button function 
