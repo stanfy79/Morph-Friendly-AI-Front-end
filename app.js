@@ -106,12 +106,15 @@ function renderTypewriterText(text) {
         const newsBtn = document.querySelector(".news-feed-url")
         const newsFeedDisplay = document.querySelector(".news-feed-container")
         const newsCloseBtn = document.querySelector(".close-btn")
+        const inputFeedDisplay = document.querySelector(".chatbot-input-container")
 
         newsBtn.addEventListener('click', () => {
             newsFeedDisplay.style.display = "block"
+            inputFeedDisplay.style.display = "none"
         })
         newsCloseBtn.addEventListener('click', () => {
             newsFeedDisplay.style.display = "none"
+            inputFeedDisplay.style.display = "flex"
         })
     }
     newsFeed()
