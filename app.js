@@ -28,8 +28,8 @@ function commands() {
     newSpeechBubbleCopyIcon.classList.add('copy-ai-text-icon')
     newSpeechBubble.classList.add('speech')
     chatbotConversation.appendChild(newSpeechBubbleContainer)
-    newSpeechBubbleImg.setAttribute('src', '/assets/profile-icon.svg')
-    newSpeechBubbleCopyIcon.setAttribute('src', '/assets/copy-icon.svg');
+    newSpeechBubbleImg.setAttribute('src', './assets/profile-icon.svg')
+    newSpeechBubbleCopyIcon.setAttribute('src', './assets/copy-icon.svg');
     newSpeechBubble.textContent = questionSugg
     chatbotConversation.scrollTop = chatbotConversation.scrollHeight
 }
@@ -54,8 +54,8 @@ document.addEventListener('submit', (e) => {
     newSpeechBubble.classList.add('speech')
     newSpeechBubbleCopyIcon.classList.add('copy-ai-text-icon')
     chatbotConversation.appendChild(newSpeechBubbleContainer)
-    newSpeechBubbleImg.setAttribute('src', '/assets/profile-icon.svg')
-    newSpeechBubbleCopyIcon.setAttribute('src', '/assets/copy-icon.svg');
+    newSpeechBubbleImg.setAttribute('src', './assets/profile-icon.svg')
+    newSpeechBubbleCopyIcon.setAttribute('src', './assets/copy-icon.svg');
     newSpeechBubble.textContent = userInput.value;
     userInput.value = ''
     chatbotConversation.scrollTop = chatbotConversation.scrollHeight
@@ -78,7 +78,7 @@ function renderTypewriterText(text) {
     newSpeechBubbleContainer.appendChild(newSpeechBubbleImg);
     newSpeechBubbleContainer.appendChild(newSpeechBubble);
     newSpeechBubbleContainer.classList.add('general-speech-container', 'speech-ai');
-    newSpeechBubbleImg.setAttribute('src', '/assets/TxnCLnvh-xIevxxfQ.jpeg');
+    newSpeechBubbleImg.setAttribute('src', './assets/TxnCLnvh-xIevxxfQ.jpeg');
     newSpeechBubble.classList.add('speech', 'ai-typing');
     chatbotConversation.appendChild(newSpeechBubbleContainer);
     let i = 0;
