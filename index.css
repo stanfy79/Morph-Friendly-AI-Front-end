@@ -194,7 +194,7 @@ main {
         cursor: pointer;
         align-items: center;
         div {
-            font-size: 18px;
+            font-size: 15px;
             text-align: center;
             color: var(--dark-text);
             right: 0;
@@ -204,7 +204,7 @@ main {
             justify-content: center;
             padding: 15px 20px;
             box-sizing: border-box;
-            font-weight: 1000;
+            font-weight: 700;
             background: #39e6afb4;
             border-radius: 14px;
             border: 2px solid #09e59f;
@@ -321,7 +321,7 @@ main {
 .speech {
     padding: 1em .8em;
     margin: .7em .5em;
-    font-size: 105%;
+    font-size: 95%;
     font-weight: 500;
     font-family: Arial;
     line-height: 1.6rem;
