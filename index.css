@@ -139,7 +139,7 @@ main {
     background: var(--light-theme);
     color: var(--dark-text);
     width: 100vw;
-    height: 100dvh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -159,14 +159,14 @@ main {
     grid-auto-flow: column;
     img {
         margin: 10px;
-        width: 80px;
-        height: 50px;
+        width: 70px;
     }
     #beta-sign {
         margin: 10px;
         background: #39e6afb4;
         width: fit-content;
         border-radius: 50%;
+        font-size: 14px;
         cursor: pointer;
         padding: 10px;
         &:hover ~ #beta-infomation {
@@ -202,7 +202,7 @@ main {
             color: #000000;
             flex-flow: row-reverse nowrap;
             justify-content: center;
-            padding: 15px 30px;
+            padding: 15px 20px;
             box-sizing: border-box;
             font-weight: 1000;
             background: #39e6afb4;
@@ -210,7 +210,7 @@ main {
             border: 2px solid #09e59f;
             font-family: 'Dela Gothic One', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             img {
-                width: 30px;
+                width: 25px;
                 display: flex;
                 justify-self: start;
                 height: 30px;
