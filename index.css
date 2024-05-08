@@ -520,7 +520,7 @@ input:focus ~ .submit-btn, input[type="text"]:focus {
 
 
 .news-feed-container {
-    height: 85dvh;
+    height: 100dvh;
     width: 100vw;
     display: none;
     max-width: 800px;
