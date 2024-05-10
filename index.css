@@ -161,6 +161,8 @@ main {
     img {
         margin: 10px;
         width: 70px;
+        height: 70px;
+        border-radius: 10%;
     }
     #beta-sign {
         margin: 10px;
@@ -175,13 +177,14 @@ main {
         }
     }
     #beta-infomation {
-        color: #64e4bda2;
+        color: #37e7b2a2;
         display: none;
         font-size: 11px;
+        z-index: 3;
+        justify-self: self-start;
+        align-self: self-end;
         position: fixed;
-        left: 50%;
-        top: 14%;
-        background: #000000d3;
+        background: #000000e2;
         border-radius: 10px;
         padding: 10px;
         margin: auto;
