@@ -55,7 +55,7 @@ document.addEventListener('submit', (e) => {
     newSpeechBubbleCopyIcon.classList.add('copy-ai-text-icon')
     chatbotConversation.appendChild(newSpeechBubbleContainer)
     newSpeechBubbleImg.setAttribute('src', './assets/profile-icon.svg')
-    newSpeechBubbleCopyIcon.setAttribute('src', './assets/copy-icon.svg');
+    newSpeechBubbleCopyIcon.setAttribute('src', 'https://imgs.search.brave.com/ZMCtskrOMZE_wmumByR_QJv0fQ-PP6R9Wn76tcvVDi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODVlNGJkN2NiMTFi/MjI3NDkxYzMzOTcu/cG5n');
     newSpeechBubble.textContent = userInput.value;
     userInput.value = ''
     chatbotConversation.scrollTop = chatbotConversation.scrollHeight
